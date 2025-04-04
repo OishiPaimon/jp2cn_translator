@@ -1,0 +1,25 @@
+```
+jp2cn_translator/
+├── requirements.txt
+├── main.py                      # 主程序入口
+├── config.py                    # 配置文件
+├── dictionaries/                # 词典目录
+│   ├── permanent_dict.json      # 永久词典
+│   └── temp_dict_template.json  # 临时词典模板
+├── modules/                     # 模块目录
+│   ├── __init__.py
+│   ├── document_reader.py       # 文档读取模块
+│   ├── translator.py            # 翻译模块
+│   ├── dictionary_manager.py    # 词典管理模块
+│   └── format_preserver.py      # 格式保存模块
+├── utils/                       # 工具函数
+│   ├── __init__.py
+│   ├── text_processor.py        # 文本处理工具
+│   └── progress_bar.py          # 进度显示工具
+└── tests/                       # 测试目录
+    ├── __init__.py
+    ├── test_document_reader.py
+    ├── test_translator.py
+    ├── test_dictionary.py
+    └── test_format.py
+```
